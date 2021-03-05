@@ -8,23 +8,23 @@ import javafx.collections.ObservableList;
 import java.io.*;
 import java.util.StringTokenizer;
 
-public class InventoryRepository {
+public class InventoryFileRepository {
 
 	private static String filename = "data/items.txt";
-	private Inventory inventory;
+	private InventoryInMemoryRepository inventory;
 
-	public InventoryRepository(){
-		this.inventory=new Inventory();
+	public InventoryFileRepository(){
+		this.inventory=new InventoryInMemoryRepository();
 		readParts();
 		readProducts();
 	}
 
 	public void readParts(){
-		ClassLoader classLoader = InventoryRepository.class.getClassLoader();
-		File file = new File(classLoader.getResource(filename).getFile());
 		ObservableList<Part> listP = FXCollections.observableArrayList();
-		BufferedReader br = null;
 		try {
+			ClassLoader classLoader = InventoryFileRepository.class.getClassLoader();
+			File file = new File(classLoader.getResource(filename).getFile());
+			BufferedReader br = null;
 			br = new BufferedReader(new FileReader(file));
 			String line = null;
 			while((line=br.readLine())!=null){
@@ -34,7 +34,12 @@ public class InventoryRepository {
 			}
 			br.close();
 		} catch (FileNotFoundException e) {
-			e.printStackTrace();
+			File yourFile = new File(filename);
+			try {
+				yourFile.createNewFile();
+			} catch (IOException ioException) {
+				ioException.printStackTrace();
+			}
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
@@ -72,12 +77,12 @@ public class InventoryRepository {
 	}
 
 	public void readProducts(){
-		ClassLoader classLoader = InventoryRepository.class.getClassLoader();
-		File file = new File(classLoader.getResource(filename).getFile());
-
 		ObservableList<Product> listP = FXCollections.observableArrayList();
-		BufferedReader br = null;
 		try {
+			ClassLoader classLoader = InventoryFileRepository.class.getClassLoader();
+			File file = new File(classLoader.getResource(filename).getFile());
+
+			BufferedReader br = null;
 			br = new BufferedReader(new FileReader(file));
 			String line = null;
 			while((line=br.readLine())!=null){
@@ -87,7 +92,12 @@ public class InventoryRepository {
 			}
 			br.close();
 		} catch (FileNotFoundException e) {
-			e.printStackTrace();
+			File yourFile = new File(filename);
+			try {
+				yourFile.createNewFile();
+			} catch (IOException ioException) {
+				ioException.printStackTrace();
+			}
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
@@ -125,7 +135,7 @@ public class InventoryRepository {
 
 	public void writeAll() {
 
-		ClassLoader classLoader = InventoryRepository.class.getClassLoader();
+		ClassLoader classLoader = InventoryFileRepository.class.getClassLoader();
 		File file = new File(classLoader.getResource(filename).getFile());
 
 		BufferedWriter bw = null;
@@ -213,11 +223,11 @@ public class InventoryRepository {
 		writeAll();
 	}
 
-	public Inventory getInventory(){
+	public InventoryInMemoryRepository getInventory(){
 		return inventory;
 	}
 
-	public void setInventory(Inventory inventory){
+	public void setInventory(InventoryInMemoryRepository inventory){
 		this.inventory=inventory;
 	}
 }

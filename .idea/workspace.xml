@@ -4,16 +4,53 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d01e246a-d9fb-4816-bc10-a56ab29f7454" name="Default Changelist" comment="" />
+    <list default="true" id="d01e246a-d9fb-4816-bc10-a56ab29f7454" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/f/6f314193286495a02fb473e4cf32b85ed85f7dcf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/5/959d3be9e6d77120b22cdef08892aae567b3ccfc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docs/initial/ClassDiagram.uml" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/initial/ClassDiagram.uml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/inventory/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inventory/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/inventory/controller/AddPartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inventory/controller/AddPartController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/inventory/controller/AddProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inventory/controller/AddProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/inventory/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inventory/controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/inventory/controller/MainScreenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inventory/controller/MainScreenController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/inventory/controller/ModifyPartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inventory/controller/ModifyPartController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/inventory/controller/ModifyProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inventory/controller/ModifyProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/inventory/model/Inventory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/inventory/repository/InventoryRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/inventory/service/InventoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inventory/service/InventoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/data/items.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data/items.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/inventory/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/inventory/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/inventory/controller/AddPartController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/inventory/controller/AddPartController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/inventory/controller/AddProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/inventory/controller/AddProductController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/inventory/controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/inventory/controller/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/inventory/controller/MainScreenController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/inventory/controller/MainScreenController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/inventory/controller/ModifyPartController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/inventory/controller/ModifyPartController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/inventory/controller/ModifyProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/inventory/controller/ModifyProductController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/inventory/model/InhousePart.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/inventory/model/InhousePart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/inventory/model/Inventory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/inventory/model/OutsourcedPart.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/inventory/model/OutsourcedPart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/inventory/model/Part.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/inventory/model/Part.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/inventory/model/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/inventory/model/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/inventory/repository/InventoryRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/inventory/service/InventoryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/inventory/service/InventoryService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.2\plugins\maven\lib\maven3" />
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.3\plugins\maven\lib\maven3" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -23,7 +60,9 @@
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -32,7 +71,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="sonarlint" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -113,6 +152,9 @@
       <workItem from="1613337504875" duration="526000" />
       <workItem from="1613546051251" duration="362000" />
       <workItem from="1613547775021" duration="35000" />
+      <workItem from="1614950261723" duration="6831000" />
+      <workItem from="1614959439611" duration="2840000" />
+      <workItem from="1614962390968" duration="878000" />
     </task>
     <servers />
   </component>
@@ -120,26 +162,50 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="700" y="388" key="#Project_Settings" timestamp="1614962560914">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="700" y="388" key="#Project_Settings/1920.0.1536.832/0.0.1920.1040/3840.20.1680.1010@0.0.1920.1040" timestamp="1614962560914" />
     <state x="97" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1613546230787">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="97" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1613546230787" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1613546416579">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="545" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1614954976733">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="545" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1920.0.1536.832/0.0.1920.1040/3840.20.1680.1010@0.0.1920.1040" timestamp="1614954976733" />
+    <state x="740" y="246" key="FileChooserDialogImpl" timestamp="1614961956262">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="246" key="FileChooserDialogImpl/1920.0.1536.832/0.0.1920.1040/3840.20.1680.1010@0.0.1920.1040" timestamp="1614961956262" />
+    <state width="1877" height="306" key="GridCell.Tab.0.bottom" timestamp="1614962366345">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1613546416579" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1613546416579">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1877" height="306" key="GridCell.Tab.0.bottom/1920.0.1536.832/0.0.1920.1040/3840.20.1680.1010@0.0.1920.1040" timestamp="1614962366345" />
+    <state width="1877" height="306" key="GridCell.Tab.0.center" timestamp="1614962366344">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1613546416579" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1613546416579">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1877" height="306" key="GridCell.Tab.0.center/1920.0.1536.832/0.0.1920.1040/3840.20.1680.1010@0.0.1920.1040" timestamp="1614962366344" />
+    <state width="1877" height="306" key="GridCell.Tab.0.left" timestamp="1614962366344">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1613546416579" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1613546416579">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1877" height="306" key="GridCell.Tab.0.left/1920.0.1536.832/0.0.1920.1040/3840.20.1680.1010@0.0.1920.1040" timestamp="1614962366344" />
+    <state width="1877" height="306" key="GridCell.Tab.0.right" timestamp="1614962366345">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1613546416579" />
+    <state width="1877" height="306" key="GridCell.Tab.0.right/1920.0.1536.832/0.0.1920.1040/3840.20.1680.1010@0.0.1920.1040" timestamp="1614962366345" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1614962649077">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/1920.0.1536.832/0.0.1920.1040/3840.20.1680.1010@0.0.1920.1040" timestamp="1614962649077" />
+    <state x="667" y="253" width="585" height="534" key="find.popup" timestamp="1614960569985">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="667" y="253" width="585" height="534" key="find.popup/1920.0.1536.832/0.0.1920.1040/3840.20.1680.1010@0.0.1920.1040" timestamp="1614960569985" />
     <state width="300" height="120" key="javadoc.popup.new" timestamp="1613337848289">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

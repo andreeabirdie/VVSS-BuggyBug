@@ -131,18 +131,21 @@ public class ModifyProductController implements Initializable, Controller {
      * Method to add to button handler to switch to scene passed as source
      * @param event
      * @param source
-     * @throws IOException
      */
     @FXML
-    private void displayScene(ActionEvent event, String source) throws IOException {
-        stage = (Stage)((Button)event.getSource()).getScene().getWindow();
-        FXMLLoader loader= new FXMLLoader(getClass().getResource(source));
-        //scene = FXMLLoader.load(getClass().getResource(source));
-        scene = loader.load();
-        Controller ctrl=loader.getController();
-        ctrl.setService(service);
-        stage.setScene(new Scene(scene));
-        stage.show();
+    private void displayScene(ActionEvent event, String source) {
+        try {
+            stage = (Stage) ((Button) event.getSource()).getScene().getWindow();
+            FXMLLoader loader = new FXMLLoader(getClass().getResource(source));
+            //scene = FXMLLoader.load(getClass().getResource(source));
+            scene = loader.load();
+            Controller ctrl = loader.getController();
+            ctrl.setService(service);
+            stage.setScene(new Scene(scene));
+            stage.show();
+        } catch (Exception e){
+            handleError(e.getMessage(), "error displaying");
+        }
     }
     
     /**
@@ -196,10 +199,9 @@ public class ModifyProductController implements Initializable, Controller {
      * Ask user for confirmation before canceling product modification
      * and switching scene to Main Screen
      * @param event
-     * @throws IOException
      */
     @FXML
-    void handleCancelProduct(ActionEvent event) throws IOException {
+    void handleCancelProduct(ActionEvent event) {
         Alert alert = new Alert(Alert.AlertType.CONFIRMATION);
         alert.initModality(Modality.NONE);
         alert.setTitle("Confirmation Needed");
@@ -218,10 +220,9 @@ public class ModifyProductController implements Initializable, Controller {
      * Validate given product parameters.  If valid, update product in inventory,
      * else give user an error message explaining why the product is invalid.
      * @param event
-     * @throws IOException
      */
     @FXML
-    void handleSaveProduct(ActionEvent event) throws IOException {
+    void handleSaveProduct(ActionEvent event) {
         String name = nameTxt.getText();
         String price = priceTxt.getText();
         String inStock = inventoryTxt.getText();
@@ -232,22 +233,14 @@ public class ModifyProductController implements Initializable, Controller {
         try {
             errorMessage = Product.isValidProduct(name, Double.parseDouble(price), Integer.parseInt(inStock), Integer.parseInt(min), Integer.parseInt(max), addParts, errorMessage);
             if(errorMessage.length() > 0) {
-                Alert alert = new Alert(Alert.AlertType.INFORMATION);
-                alert.setTitle("Error Adding Part!");
-                alert.setHeaderText("Error!");
-                alert.setContentText(errorMessage);
-                alert.showAndWait();
+                handleError(errorMessage, "Error Adding Part!");
             } else {
                 service.updateProduct(productIndex, productId, name, Double.parseDouble(price), Integer.parseInt(inStock), Integer.parseInt(min), Integer.parseInt(max), addParts);
                 displayScene(event, "/fxml/MainScreen.fxml");
             }
         } catch (NumberFormatException e) {
-            System.out.println("Form contains blank field.");
-            Alert alert = new Alert(Alert.AlertType.INFORMATION);
-            alert.setTitle("Error Adding Product!");
-            alert.setHeaderText("Error!");
-            alert.setContentText("Form contains blank field.");
-            alert.showAndWait();
+            System.out.println(e.getMessage());
+            handleError(errorMessage, "Error Adding Part!");
         }
     }
 

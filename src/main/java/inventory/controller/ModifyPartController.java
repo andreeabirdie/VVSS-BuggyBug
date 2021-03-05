@@ -109,18 +109,21 @@ public class ModifyPartController implements Initializable, Controller {
      * Method to add to button handler to switch to scene passed as source
      * @param event
      * @param source
-     * @throws IOException
      */
     @FXML
-    private void displayScene(ActionEvent event, String source) throws IOException {
-        stage = (Stage)((Button)event.getSource()).getScene().getWindow();
-        FXMLLoader loader= new FXMLLoader(getClass().getResource(source));
-        //scene = FXMLLoader.load(getClass().getResource(source));
-        scene = loader.load();
-        Controller ctrl=loader.getController();
-        ctrl.setService(service);
-        stage.setScene(new Scene(scene));
-        stage.show();
+    private void displayScene(ActionEvent event, String source) {
+        try {
+            stage = (Stage) ((Button) event.getSource()).getScene().getWindow();
+            FXMLLoader loader = new FXMLLoader(getClass().getResource(source));
+            //scene = FXMLLoader.load(getClass().getResource(source));
+            scene = loader.load();
+            Controller ctrl = loader.getController();
+            ctrl.setService(service);
+            stage.setScene(new Scene(scene));
+            stage.show();
+        } catch (Exception e){
+            handleError(e.getMessage(), "error displaying");
+        }
     }
     
     /**
@@ -152,7 +155,7 @@ public class ModifyPartController implements Initializable, Controller {
      * @throws IOException
      */
     @FXML
-    void handleModifyPartCancel(ActionEvent event) throws IOException {
+    void handleModifyPartCancel(ActionEvent event) {
         Alert alert = new Alert(Alert.AlertType.CONFIRMATION);
         alert.initModality(Modality.NONE);
         alert.setTitle("Confirmation Needed");
@@ -174,7 +177,7 @@ public class ModifyPartController implements Initializable, Controller {
      * @throws IOException
      */
     @FXML
-    void handleModifyPartSave(ActionEvent event) throws IOException {
+    void handleModifyPartSave(ActionEvent event) {
         String partId = partIdTxt.getText();
         String name = nameTxt.getText();
         String price = priceTxt.getText();
@@ -202,12 +205,8 @@ public class ModifyPartController implements Initializable, Controller {
             }
 
         } catch (NumberFormatException e) {
-            System.out.println("Blank Fields");
-            Alert alert = new Alert(Alert.AlertType.INFORMATION);
-            alert.setTitle("Error Adding Part!");
-            alert.setHeaderText("Error");
-            alert.setContentText("Form contains blank field.");
-            alert.showAndWait();
+            System.out.println(e.getMessage());
+            handleError(e.getMessage(), "Error Adding Part!");
         }
 
     }

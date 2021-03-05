@@ -1,10 +1,12 @@
 
-package inventory.model;
+package inventory.repository;
 
+import inventory.model.Part;
+import inventory.model.Product;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 
-public class Inventory {
+public class InventoryInMemoryRepository {
     
     // Declare fields
     private ObservableList<Product> products;
@@ -13,7 +15,7 @@ public class Inventory {
     private int autoProductId;
 
 
-    public Inventory(){
+    public InventoryInMemoryRepository(){
         this.products = FXCollections.observableArrayList();
         this.allParts= FXCollections.observableArrayList();
         this.autoProductId=0;
@@ -44,14 +46,8 @@ public class Inventory {
      * @return 
      */
     public Product lookupProduct(String searchItem) {
-        boolean isFound = false;
         for(Product p: products) {
             if(p.getName().contains(searchItem) || (p.getProductId()+"").equals(searchItem)) return p;
-            isFound = true;
-        }
-        if(isFound == false) {
-            Product product = new Product(0, null, 0.0, 0, 0, 0, null);
-            return product;
         }
         return null;
     }
