@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><title>reqspec Prj233 - brir2452_ReqSpec</title>
+<link type="text/css" rel="stylesheet" href="http://localhost/testlink/gui/themes/default/css/tl_documents.css" />
+<style type="text/css" media="print">.notprintable { display:none;}</style>
+</head>
+<body>
+<div>
+<div style="float:right;">TestLink Community [configure $tlCfg-&gt;document_generator-&gt;company_name]</div>
+<div>&nbsp;</div><hr />
+<p style="text-align: center;"><img alt="TestLink logo" title="configure using $tlCfg->document_generator->company_logo"  width=231 height=56 src="http://localhost/testlink/gui/themes/default/images/tl-logo-transparent-25.png" /></p></div>
+<div class="doc_title"><p>Requirements Specification Document</p></div>
+<div class="doc_title" style="text-align:left;margin: auto;"><p>Test Project: Prj233</p></div>
+<div class="summary"><p id="printedby">Printed by TestLink on 21/03/2021</p></div>
+<div class="pagefooter" id="copyright">2012 &copy; TestLink Community</div>
+<h1 class="general" style="page-break-before: always">Table Of Contents</h1><div class="toc"><br/><p style="padding-left: 20px;"><b><a href="#toc_1">1. brir2452_ReqSpec : brir2452_ReqSpec</a></b></p>
+<p style="padding-left: 45px;"><a href="#toc_req1266">brir2452_F01 : Adaugare</a></p></div><p style="page-break-before: always"></p><table class="req_spec"><tr><th colspan="2"><h2 class="doclevel"> <span class="label">1. Requirements Spec.:</span> brir2452_ReqSpec : brir2452_ReqSpec</h2></th></tr>
+<a name='toc_1'></a>
+<tr><td width="20%"><span class="label">revision</span></td><td> 1</td></tr>
+<tr><td width="20%"><span class="label">Author</span></td><td> brir2452</td></tr>
+<tr><td width="20%"><span class="label">Type</span></td><td>Section</td></tr><tr><td width="20%"><span class="label">Total count of requirements (Coverage)</span></td><td>N/A (1/0)</td></tr><tr><td colspan="2"><p>Aplicatia gestioneaza piesele componente (care pot fi de 2 tipuri: fabricate de companie sau achizitionate de companie) si produsele finite ale unei companii de productie.</p>
+
+<p>Informatiile sunt preluate dintr-un fisier text, fiecare produs/piesa aflandu-se pe o linie noua, iar atributele acestuia fiind despartite prin virgula ( &ldquo;,&rdquo;).</p></td></tr></table><br/>
+<table class="req" ><tr><th colspan="2"><span class="label">Requirement:</span> brir2452_F01 : Adaugare</th></tr>
+<tr><td valign="top"><span class="label">Version :</span></td><td>1</td></tr>
+<tr><td valign="top"><span class="label">revision:</span></td><td>2</td></tr>
+<a name="toc_req1266"></a><tr><td valign="top"><span class="label">Author:</span></td><td>brir2452</td></tr>
+<tr><td width="20%"><span class="label">Status</span></td><td>Draft</td></tr><tr><td width="20%"><span class="label">Type</span></td><td>Use Case</td></tr><tr><td width="20%"><span class="label">Coverage</span></td><td>25% (1/4)</td></tr><tr><td colspan="2"> <br/><p><strong>F01a</strong>. Adaugarea unei piese cu detaliile: denumire, numar de bucati existente in stoc ( nr intreg ), pret unitar (nr intreg), numarul minim si maxim (numere intregi ) de bucati acceptat pentru depozitare. Daca o piesa este fabricata de catre companie, atunci se retine identificatorul masinii care a produs-o. Daca este o componenta achizitionata de companie, atunci se va retine numele companiei.</p>
+
+<p><strong>F01b</strong>. Adaugarea unui produs finit cu detaliile: denumire, numar de bucati existente in stoc (nr intreg), pret unitar (nr intreg), numarul minim si maxim (nr intreg) de bucati acceptat pentru depozitare, piesele componente folosite la montarea produsul finit(separate prin &ldquo;:&rdquo;).</p></td></tr><tr><td width="20%"><span class="label">Related Test Cases</span></td><td>233-7 : F01a_ECP_Valid &nbsp;[Version :1]233-8 : F01a_ECP_Nonvalid &nbsp;[Version :1]233-9 : F01b_BVA_Valid &nbsp;[Version :1]233-10 : F01b_BVA_Nonvalid &nbsp;[Version :1]</td></tr></table><br/>
+</body>
+</html>
