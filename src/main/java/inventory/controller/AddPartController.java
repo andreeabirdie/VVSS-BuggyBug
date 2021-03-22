@@ -165,7 +165,6 @@ public class AddPartController implements Initializable, Controller {
         } catch (Exception e) {
             handleError(e.getMessage(), "Error Adding Part!");
         }
-
     }
 
     void addPart(String name, String price, String inStock, String min, String max, String partDynamicValue) throws Exception {

@@ -5,10 +5,12 @@ D:\Uni\Semestrul6\VVSS\VVSS-BuggyBug\src\main\java\inventory\controller\MainScre
 D:\Uni\Semestrul6\VVSS\VVSS-BuggyBug\src\main\java\inventory\controller\Controller.java
 D:\Uni\Semestrul6\VVSS\VVSS-BuggyBug\src\main\java\inventory\model\Product.java
 D:\Uni\Semestrul6\VVSS\VVSS-BuggyBug\src\main\java\inventory\repository\InventoryFileRepository.java
+D:\Uni\Semestrul6\VVSS\VVSS-BuggyBug\src\main\java\inventory\controller\AddPartControllerTest.java
 D:\Uni\Semestrul6\VVSS\VVSS-BuggyBug\src\main\java\inventory\model\OutsourcedPart.java
 D:\Uni\Semestrul6\VVSS\VVSS-BuggyBug\src\main\java\inventory\model\InhousePart.java
 D:\Uni\Semestrul6\VVSS\VVSS-BuggyBug\src\main\java\inventory\repository\InventoryInMemoryRepository.java
 D:\Uni\Semestrul6\VVSS\VVSS-BuggyBug\src\main\java\inventory\Main.java
 D:\Uni\Semestrul6\VVSS\VVSS-BuggyBug\src\main\java\inventory\service\InventoryService.java
+D:\Uni\Semestrul6\VVSS\VVSS-BuggyBug\src\main\java\inventory\controller\AddProductControllerTest.java
 D:\Uni\Semestrul6\VVSS\VVSS-BuggyBug\src\main\java\inventory\controller\ModifyProductController.java
 D:\Uni\Semestrul6\VVSS\VVSS-BuggyBug\src\main\java\inventory\controller\AddPartController.java

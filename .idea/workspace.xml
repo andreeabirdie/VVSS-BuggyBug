@@ -23,22 +23,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d01e246a-d9fb-4816-bc10-a56ab29f7454" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Docs/Lab02/233_req_spec-2021-03-21.doc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Docs/Lab02/Lab02_BBT_TCs_Form.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/inventory/controller/AddPartControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/testData.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/data/testData.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/inventory/controller/AddPartControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/inventory/controller/AddProductControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/inventory/controller/AddPartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inventory/controller/AddPartController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/inventory/repository/InventoryFileRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inventory/repository/InventoryFileRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/data/items.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data/items.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/inventory/controller/AddPartControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inventory/controller/AddPartControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/inventory/controller/AddProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inventory/controller/AddProductController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/inventory/controller/AddPartController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/inventory/controller/AddPartController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/inventory/repository/InventoryFileRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/inventory/repository/InventoryFileRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/inventory/controller/AddPartControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/inventory/controller/AddPartControllerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/inventory/controller/AddProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/inventory/controller/AddProductController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,21 +84,21 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="inventory.controller" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\VVSS\CamiVVSS_ro2019-2020\Labs\Proiecte\Inventory\src\main" />
-      <recent name="E:\VVSS\CamiVVSS_ro2019-2020\Labs\Proiecte\Inventory\src\main\resources" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="inventory" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\VVSS\CamiVVSS_ro2019-2020\Labs\Proiecte\Inventory\src\main\resources\data" />
       <recent name="E:\VVSS\CamiVVSS_ro2019-2020\Labs\Proiecte\Inventory\src\main\java\resources\data" />
       <recent name="E:\VVSS\CamiVVSS_ro2019-2020\Labs\Proiecte\Inventory\src\main\java" />
       <recent name="E:\VVSS\CamiVVSS_ro2019-2020\Labs\Proiecte\Inventory\src\main\java\inventory" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\VVSS\CamiVVSS_ro2019-2020\Labs\Proiecte\Inventory\src\main" />
+      <recent name="E:\VVSS\CamiVVSS_ro2019-2020\Labs\Proiecte\Inventory\src\main\resources" />
     </key>
   </component>
   <component name="RunManager" selected="Maven.Inventory [exec:java]">
@@ -123,13 +115,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -181,6 +175,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AddProductControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="VVSS-BuggyBug" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="inventory.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="inventory.controller" />
+      <option name="MAIN_CLASS_NAME" value="inventory.controller.AddProductControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Inventory [exec:java]" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -209,6 +218,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AddProductControllerTest" />
         <item itemvalue="JUnit.AddPartControllerTest" />
         <item itemvalue="JUnit.AddPartControllerTest.addPartBVAValidNameIsOk" />
         <item itemvalue="JUnit.AddPartControllerTest.addPartBVANonvalidNameIsNull" />
@@ -238,8 +248,17 @@
       <workItem from="1614959439611" duration="2840000" />
       <workItem from="1614962390968" duration="1159000" />
       <workItem from="1615295143004" duration="1866000" />
-      <workItem from="1616344386527" duration="6647000" />
+      <workItem from="1616344386527" duration="6826000" />
+      <workItem from="1616423398077" duration="1351000" />
     </task>
+    <task id="LOCAL-00001" summary="Add ECP and BVA tests for add part + documentation">
+      <created>1616363277899</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1616363277899</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,6 +274,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -286,54 +306,58 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="246" key="FileChooserDialogImpl/1920.0.1536.832/0.0.1920.1040/3840.20.1680.1010@0.0.1920.1040" timestamp="1614961956262" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1616363165515">
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1616424637641">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1613546416579" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1616363165515" />
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1616424637641" />
     <state width="1877" height="306" key="GridCell.Tab.0.bottom/1920.0.1536.832/0.0.1920.1040/3840.20.1680.1010@0.0.1920.1040" timestamp="1615297737963" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1616363165514">
+    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1616424637641">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1613546416579" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1616363165514" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1616424637641" />
     <state width="1877" height="306" key="GridCell.Tab.0.center/1920.0.1536.832/0.0.1920.1040/3840.20.1680.1010@0.0.1920.1040" timestamp="1615297737963" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1616363165514">
+    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1616424637641">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1613546416579" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1616363165514" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1616424637641" />
     <state width="1877" height="306" key="GridCell.Tab.0.left/1920.0.1536.832/0.0.1920.1040/3840.20.1680.1010@0.0.1920.1040" timestamp="1615297737963" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1616363165514">
+    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1616424637641">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1613546416579" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1616363165514" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1616424637641" />
     <state width="1877" height="306" key="GridCell.Tab.0.right/1920.0.1536.832/0.0.1920.1040/3840.20.1680.1010@0.0.1920.1040" timestamp="1615297737963" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1616363165515">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1616424638490">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1616363165515" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1616363165515">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1616424638490" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1616424638489">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1616363165515" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1616363165515">
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1616424638489" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1616424638485">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1616363165515" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1616363165515">
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1616424638485" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1616424638490">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1616363165515" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1616424638490" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1614962649077">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/1920.0.1536.832/0.0.1920.1040/3840.20.1680.1010@0.0.1920.1040" timestamp="1614962649077" />
-    <state x="2651" y="270" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1616345253345">
+    <state x="2472" y="240" key="Vcs.Push.Dialog.v2" timestamp="1616363282752">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2651" y="270" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1616345253345" />
+    <state x="2472" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1616363282752" />
+    <state x="2651" y="270" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1616424007021">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2651" y="270" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1616424007021" />
     <state x="667" y="253" width="585" height="534" key="find.popup" timestamp="1614960569985">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
