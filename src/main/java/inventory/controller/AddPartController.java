@@ -16,6 +16,7 @@ import java.io.IOException;
 import java.net.URL;
 import java.util.Optional;
 import java.util.ResourceBundle;
+import java.util.concurrent.ExecutionException;
 
 
 public class AddPartController implements Initializable, Controller {
@@ -155,25 +156,28 @@ public class AddPartController implements Initializable, Controller {
         String min = minTxt.getText();
         String max = maxTxt.getText();
         String partDynamicValue = addPartDynamicTxt.getText();
-        errorMessage = "";
-        
         try {
-            errorMessage = Part.isValidPart(name, Double.parseDouble(price), Integer.parseInt(inStock), Integer.parseInt(min), Integer.parseInt(max), errorMessage);
-            if(errorMessage.length() > 0) {
-                handleError(errorMessage, "Error Adding Part!");
-            } else {
-               if(isOutsourced == true) {
-                    service.addOutsourcePart(name, Double.parseDouble(price), Integer.parseInt(inStock), Integer.parseInt(min), Integer.parseInt(max), partDynamicValue);
-                } else {
-                    service.addInhousePart(name, Double.parseDouble(price), Integer.parseInt(inStock), Integer.parseInt(min), Integer.parseInt(max), Integer.parseInt(partDynamicValue));
-                }
-                displayScene(event, "/fxml/MainScreen.fxml");
-            }
-            
+            addPart(name, price, inStock, min, max, partDynamicValue);
+            displayScene(event, "/fxml/MainScreen.fxml");
         } catch (NumberFormatException e) {
             System.out.println("Form contains blank field.");
             handleError(e.getMessage(), "Error Adding Part!");
+        } catch (Exception e) {
+            handleError(e.getMessage(), "Error Adding Part!");
+        }
+    }
 
+    void addPart(String name, String price, String inStock, String min, String max, String partDynamicValue) throws Exception {
+        errorMessage = "";
+        errorMessage = Part.isValidPart(name, Double.parseDouble(price), Integer.parseInt(inStock), Integer.parseInt(min), Integer.parseInt(max), errorMessage);
+        if(errorMessage.length() > 0) {
+            throw new Exception(errorMessage);
+        } else {
+            if(isOutsourced) {
+                service.addOutsourcePart(name, Double.parseDouble(price), Integer.parseInt(inStock), Integer.parseInt(min), Integer.parseInt(max), partDynamicValue);
+            } else {
+                service.addInhousePart(name, Double.parseDouble(price), Integer.parseInt(inStock), Integer.parseInt(min), Integer.parseInt(max), Integer.parseInt(partDynamicValue));
+            }
         }
     }
 

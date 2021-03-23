@@ -16,7 +16,6 @@ import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 
-import java.io.IOException;
 import java.net.URL;
 import java.util.Optional;
 import java.util.ResourceBundle;
@@ -86,10 +85,13 @@ public class AddProductController implements Initializable, Controller {
 
     public AddProductController(){}
 
+    public AddProductController(InventoryService service) {
+        this.service = service;
+    }
+
     public void setService(InventoryService service){
         this.service=service;
         addProductTableView.setItems(service.getAllParts());
-
     }
 
     /**
@@ -205,20 +207,24 @@ public class AddProductController implements Initializable, Controller {
         String inStock = inventoryTxt.getText();
         String min = minTxt.getText();
         String max = maxTxt.getText();
-        errorMessage = "";
-        
         try {
-            errorMessage = Product.isValidProduct(name, Double.parseDouble(price), Integer.parseInt(inStock), Integer.parseInt(min), Integer.parseInt(max), addParts, errorMessage);
-            if(errorMessage.length() > 0) {
-                handleError(errorMessage, "Error Adding Part!");
-            } else {
-                service.addProduct(name, Double.parseDouble(price), Integer.parseInt(inStock), Integer.parseInt(min), Integer.parseInt(max), addParts);
-                displayScene(event, "/fxml/MainScreen.fxml");
-            }
+            addProduct(name, price, inStock, min, max, addParts);
+            displayScene(event, "/fxml/MainScreen.fxml");
         } catch (NumberFormatException e) {
+            handleError(e.getMessage(), "Error Adding Product! (number format)");
+        } catch (Exception e) {
             handleError(e.getMessage(), "Error Adding Product!");
         }
+    }
 
+    void addProduct(String name, String price, String inStock, String min, String max, ObservableList<Part> parts) throws Exception {
+        errorMessage = "";
+        errorMessage = Product.isValidProduct(name, Double.parseDouble(price), Integer.parseInt(inStock), Integer.parseInt(min), Integer.parseInt(max), parts, errorMessage);
+        if(errorMessage.length() > 0) {
+            throw new Exception(errorMessage);
+        } else {
+            service.addProduct(name, Double.parseDouble(price), Integer.parseInt(inStock), Integer.parseInt(min), Integer.parseInt(max), parts);
+        }
     }
 
     /**
