@@ -55,4 +55,12 @@ class InventoryInMemoryRepositoryTest {
         Product produsCautat3 = inventory.lookupProduct(searchTerm);
         assertEquals(produsCautat3.getName(), searchTerm);
     }
+
+    @Test
+    void lookupProductValidNumeEmptyList(){
+        String searchTerm = "produs";
+        inventory.removeProduct(produsExistent);
+        Product produsCautat3 = inventory.lookupProduct(searchTerm);
+        assertNull(produsCautat3);
+    }
 }
