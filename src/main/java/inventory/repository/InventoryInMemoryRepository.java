@@ -46,10 +46,30 @@ public class InventoryInMemoryRepository {
      * @return 
      */
     public Product lookupProduct(String searchItem) {
-        for(Product p: products) {
-            if(p.getName().contains(searchItem) || (p.getProductId()+"").equals(searchItem)) return p;
+        boolean isFound = false;
+        int index = products.size() - 1;
+        Product product = null;
+
+        while(index >= 0) {
+            Product p = products.get(index);
+            if(p.getName().contains(searchItem)){
+                product = p;
+                isFound = true;
+            }
+
+            if((p.getProductId()+"").equals(searchItem)){
+                product = p;
+                isFound = true;
+            }
+
+            index--;
         }
-        return null;
+
+        if(!isFound) {
+            product = null;
+        }
+
+        return product;
     }
     
     /**
