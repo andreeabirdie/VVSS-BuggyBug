@@ -24,6 +24,11 @@ public class InventoryFileRepository {
 		this.filename = filename;
 	}
 
+	public InventoryFileRepository(InventoryInMemoryRepository inventory) {
+		this.inventory = inventory;
+	}
+
+
 	public void readParts(){
 		ObservableList<Part> listP = FXCollections.observableArrayList();
 		try {

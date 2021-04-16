@@ -1,12 +1,14 @@
 
-v
-java:S1450"TRemove the "stage" field and declare it as a local variable in the relevant methods.(‹ğÑœıÿÿÿÿ8“ô™š€/
-q
-java:S1450"TRemove the "scene" field and declare it as a local variable in the relevant methods.(‹ôÒ¡8“ô™š€/
-[	java:S106®"9Replace this use of System.out or System.err by a logger.(Éâ…ºıÿÿÿÿ8“ô™š€/
-U	java:S106v"9Replace this use of System.out or System.err by a logger.(¤Õï«8“ô™š€/
-Z	java:S106s"9Replace this use of System.out or System.err by a logger.(©²²éúÿÿÿÿ8“ô™š€/
+Z	java:S106t"9Replace this use of System.out or System.err by a logger.(©²²éúÿÿÿÿ8¢¸‰Ì‡/
 }
-java:S1450"[Remove the "errorMessage" field and declare it as a local variable in the relevant methods.(¥åˆüÿÿÿÿ8“ô™š€/
-K
-java:S1125¥"(Remove the literal "true" boolean value.(ÿÂóéüÿÿÿÿ8“ô™š€/
+java:S1450"[Remove the "errorMessage" field and declare it as a local variable in the relevant methods.(¥åˆüÿÿÿÿ8¢¸‰Ì‡/
+v
+java:S1450"TRemove the "stage" field and declare it as a local variable in the relevant methods.(‹ğÑœıÿÿÿÿ8¢¸‰Ì‡/
+U	java:S106w"9Replace this use of System.out or System.err by a logger.(¤Õï«8¢¸‰Ì‡/
+a
+java:S1128"DRemove this unused import 'java.util.concurrent.ExecutionException'.(¡£ØÍ8¢¸‰Ì‡/
+q
+java:S1450"TRemove the "scene" field and declare it as a local variable in the relevant methods.(‹ôÒ¡8¢¸‰Ì‡/
+[	java:S106£"9Replace this use of System.out or System.err by a logger.(Éâ…ºıÿÿÿÿ8¢¸‰Ì‡/
+h	java:S112ª"FDefine and throw a dedicated exception instead of using a generic one.(‡®Çäøÿÿÿÿ8¢¸‰Ì‡/
+h	java:S112®"FDefine and throw a dedicated exception instead of using a generic one.(áëÁ¦øÿÿÿÿ8¢¸‰Ì‡/
