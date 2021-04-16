@@ -23,34 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d01e246a-d9fb-4816-bc10-a56ab29f7454" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/inventory/controller/AddPartControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/inventory/controller/AddProductControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/e/4ea44012ba0a98f89fda2016bd18167be372cfd7" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/e/4ea44012ba0a98f89fda2016bd18167be372cfd7" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/0/60c45c8b83590f796b548300881eb5e32034406b" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/0/60c45c8b83590f796b548300881eb5e32034406b" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/b/fbfefaa7b63a08d0319b42efe2f7604a9cd84bce" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/b/fbfefaa7b63a08d0319b42efe2f7604a9cd84bce" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/Lab03/~$3_test_spec-2021-03-28.doc" beforeDir="false" afterPath="$PROJECT_DIR$/Docs/Lab03/~$3_test_spec-2021-03-28.doc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/inventory/controller/AddPartControllerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/inventory/controller/AddProductControllerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/inventory/repository/InventoryInMemoryRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inventory/repository/InventoryInMemoryRepositoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/inventory/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/inventory/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/inventory/controller/AddPartController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/inventory/controller/AddPartController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/inventory/controller/AddPartControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/inventory/controller/AddPartControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/inventory/controller/AddProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/inventory/controller/AddProductController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/inventory/controller/AddProductControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/inventory/controller/AddProductControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/inventory/controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/inventory/controller/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/inventory/controller/MainScreenController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/inventory/controller/MainScreenController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/inventory/controller/ModifyPartController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/inventory/controller/ModifyPartController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/inventory/controller/ModifyProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/inventory/controller/ModifyProductController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/inventory/model/InhousePart.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/inventory/model/InhousePart.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/inventory/model/OutsourcedPart.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/inventory/model/OutsourcedPart.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/inventory/model/Part.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/inventory/model/Part.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/inventory/model/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/inventory/model/Product.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/inventory/repository/InventoryFileRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/inventory/repository/InventoryFileRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/inventory/controller/AddPartControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/inventory/controller/AddProductControllerTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/inventory/repository/InventoryInMemoryRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/inventory/repository/InventoryInMemoryRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/inventory/service/InventoryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/inventory/service/InventoryService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +46,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2019.2.3\plugins\maven\lib\maven3" />
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.3\plugins\maven\lib\maven3" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -102,8 +78,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="inventory.service" />
       <recent name="inventory.repository" />
+      <recent name="inventory.service" />
       <recent name="inventory.model" />
       <recent name="inventory.controller" />
     </key>
@@ -125,6 +101,17 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.InventoryInMemoryRepositoryTest">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="InventoryInMemoryRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="VVSS-BuggyBug" />
       <useClassPathOnly />
@@ -258,12 +245,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.InventoryInMemoryRepositoryTest" />
         <item itemvalue="JUnit.InventoryServiceNoMocksTest" />
         <item itemvalue="JUnit.InventoryServiceMockPartTest" />
         <item itemvalue="JUnit.InventoryServiceMockAllTest.getAllParts" />
         <item itemvalue="JUnit.InventoryServiceMockAllTest.deletePart" />
-        <item itemvalue="JUnit.InventoryServiceMockAllTest.addInhousePart" />
-        <item itemvalue="JUnit.InventoryInMemoryRepositoryTest" />
       </list>
     </recent_temporary>
   </component>
@@ -336,8 +322,6 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2360" y="94" key="#Project_Structure/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1616344512478" />
-    <state x="146" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1618335161042" />
-    <screen x="0" y="0" width="1920" height="1040" />
     <state x="2741" y="159" width="1092" height="558" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616959454291">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -357,47 +341,34 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="246" key="FileChooserDialogImpl/1920.0.1536.832/0.0.1920.1040/3840.20.1680.1010@0.0.1920.1040" timestamp="1614961956262" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1618390516354" />
-    <screen x="0" y="0" width="1920" height="1040" />
-    <state width="1877" height="211" key="GridCell.Tab.0.bottom" timestamp="1617710814445">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="306" key="GridCell.Tab.0.bottom" timestamp="1618597112524">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="211" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617710814445" />
     <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1613546416579" />
     <state width="1877" height="318" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1616425146855" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/1920.0.1536.832/0.0.1920.1040/3840.20.1680.1010@0.0.1920.1040" timestamp="1618390516354" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1618390516352" />
-    <screen x="0" y="0" width="1920" height="1040" />
-    <state width="1877" height="306" key="GridCell.Tab.0.bottom/1920.0.1536.832/0.0.1920.1040/3840.20.1680.1010@0.0.1920.1040" timestamp="1615297737963" />
-    <state width="1877" height="211" key="GridCell.Tab.0.center" timestamp="1617710814445">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="306" key="GridCell.Tab.0.bottom/1920.0.1536.832/0.0.1920.1040/3840.20.1680.1010@0.0.1920.1040" timestamp="1618597112524" />
+    <state width="1877" height="306" key="GridCell.Tab.0.center" timestamp="1618597112523">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="211" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617710814445" />
     <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1613546416579" />
     <state width="1877" height="318" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1616425146855" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center/1920.0.1536.832/0.0.1920.1040/3840.20.1680.1010@0.0.1920.1040" timestamp="1618390516352" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1618390516352" />
-    <screen x="0" y="0" width="1920" height="1040" />
-    <state width="1877" height="306" key="GridCell.Tab.0.center/1920.0.1536.832/0.0.1920.1040/3840.20.1680.1010@0.0.1920.1040" timestamp="1615297737963" />
-    <state width="1877" height="211" key="GridCell.Tab.0.left" timestamp="1617710814445">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="306" key="GridCell.Tab.0.center/1920.0.1536.832/0.0.1920.1040/3840.20.1680.1010@0.0.1920.1040" timestamp="1618597112523" />
+    <state width="1877" height="306" key="GridCell.Tab.0.left" timestamp="1618597112523">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="211" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617710814445" />
     <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1613546416579" />
     <state width="1877" height="318" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1616425146855" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left/1920.0.1536.832/0.0.1920.1040/3840.20.1680.1010@0.0.1920.1040" timestamp="1618390516352" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1618390516352" />
-    <screen x="0" y="0" width="1920" height="1040" />
-    <state width="1877" height="306" key="GridCell.Tab.0.left/1920.0.1536.832/0.0.1920.1040/3840.20.1680.1010@0.0.1920.1040" timestamp="1615297737963" />
-    <state width="1877" height="211" key="GridCell.Tab.0.right" timestamp="1617710814445">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="306" key="GridCell.Tab.0.left/1920.0.1536.832/0.0.1920.1040/3840.20.1680.1010@0.0.1920.1040" timestamp="1618597112523" />
+    <state width="1877" height="306" key="GridCell.Tab.0.right" timestamp="1618597112524">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="211" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1617710814445" />
     <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1613546416579" />
     <state width="1877" height="318" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1616425146855" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right/1920.0.1536.832/0.0.1920.1040/3840.20.1680.1010@0.0.1920.1040" timestamp="1618390516352" />
-    <state width="1877" height="318" key="GridCell.Tab.1.bottom" timestamp="1616425146856" />
-    <state width="1877" height="306" key="GridCell.Tab.0.right/1920.0.1536.832/0.0.1920.1040/3840.20.1680.1010@0.0.1920.1040" timestamp="1615297737963" />
+    <state width="1877" height="306" key="GridCell.Tab.0.right/1920.0.1536.832/0.0.1920.1040/3840.20.1680.1010@0.0.1920.1040" timestamp="1618597112524" />
     <state width="1877" height="338" key="GridCell.Tab.1.bottom" timestamp="1616946561653">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -427,14 +398,12 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2472" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1616363282752" />
-    <state x="731" y="270" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1618337915191" />
-    <screen x="0" y="0" width="1920" height="1040" />
-    <state x="2651" y="270" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1616956371017">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="731" y="270" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1618597035164">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="2651" y="270" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1616956371017" />
     <state x="2651" y="270" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1616424007021" />
-    <state x="731" y="270" key="com.intellij.testIntegration.createTest.CreateTestDialog/1920.0.1536.832/0.0.1920.1040/3840.20.1680.1010@0.0.1920.1040" timestamp="1618337915191" />
+    <state x="731" y="270" key="com.intellij.testIntegration.createTest.CreateTestDialog/1920.0.1536.832/0.0.1920.1040/3840.20.1680.1010@0.0.1920.1040" timestamp="1618597035164" />
     <state x="667" y="253" width="585" height="534" key="find.popup" timestamp="1614960569985">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
